@@ -16,7 +16,7 @@ footer {
     background: linear-gradient(#26282a, #1d2021);
 }
 
-/* init main */
+/* ======================= init main */
 
 .container {
     padding: 20px;
@@ -109,4 +109,60 @@ footer {
 
 /* /sezione centrale */
 
-/* /main */
+/* =====================/main */
+
+/* ======================footer  */
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-sx {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-col i {
+    font-size: 30px;
+    margin: 0 30px 5px 30px;
+}
+
+.footer-center {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-dx {
+    height: 100%;
+    width: 10%;
+    background-color: #4b4c4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-dx span {
+    color: #af4d4b;
+}
+
+.green i {
+    color: rgb(1, 201, 1);
+}
+
+/* /footer  */
