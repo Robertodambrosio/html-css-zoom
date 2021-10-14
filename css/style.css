@@ -88,7 +88,8 @@ footer {
 }
 
 .rectangle {
-    background-color: lightgray;
+    background: url(https://c.tenor.com/iKPang9BWtgAAAAM/tw-tech-support-pc.gif);
+    background-size: cover;
     height: 20%;
     width: calc((100% / 5) - 25px);
     margin: 5px;
@@ -99,7 +100,7 @@ footer {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 5px
 }
 
